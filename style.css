@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+
+.body {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#particles-js {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+}
+
+body .container .wrap .main-content .links .links-item a {
+    border-radius: 20px;
+    background-color: #d6d4d4;
+    color: black;
+    font-weight: 600;
+}
+
+body .container .wrap .main-content .links .links-item a:hover {
+    background-color: grey;
+    color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+body .container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    top: 20%;
+}
+
+body .container .wrap {
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: flex-start;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+body .container .wrap .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+body .container .wrap .header .merchant-logo {
+    width: 70px;
+    height: 70px;
+    margin: 5px 15px;
+    border-radius: 50%;
+}
+
+body .container .wrap .header .title {
+    max-width: 100%;
+    margin: 10px 0 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+body .container .wrap .header .profile {
+    margin-bottom: 10px !important;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    word-break: break-word;
+}
+
+body .container .wrap .main-content {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+
+/* Link Button */
+body .container .wrap .main-content .links {
+    display: flex;
+    flex-direction: column;
+    margin: 0 25px;
+    gap: 16px;
+}
+
+/* body .container .wrap .main-content .links .links-item {
+    Iframe Youtube
+    Button Style
+    Iframe Youtube
+} */
+
+body .container .wrap .main-content .links .links-item-iframe {
+    display: flex;
+    overflow: hidden;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 15px;
+}
+
+body .container .wrap .main-content .links .links-item a {
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    padding: 16px 20px;
+    vertical-align: middle;
+}
+
+body .container .wrap .main-content .links .links-item a:hover {
+    text-decoration: unset;
+}
+
+body .container .wrap .main-content .links .links-item a * {
+    margin: 0;
+}
+
+body .container .wrap .main-content .links .links-item iframe {
+    width: 100%;
+    height: 200px;
+}
+
+/* Screen */
+@media screen and (min-width: 425px) {
+    body .container .wrap .main-content .links .links-item iframe {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    body .container .wrap .main-content .links .links-item iframe {
+        height: 385px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body .container .wrap .main-content .links .links-item iframe {
+        height: 425px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body .container .wrap .main-content .links .links-item iframe {
+        height: 415px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body .container .wrap .main-content .links .links-item iframe {
+        height: 400px;
+    }
+}
+
+body .container .wrap .main-content .links .links-item * {
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-weight: 500;
+}
+
+/* Social Media Logo */
+body .container .wrap .main-content .social-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+body .container .wrap .main-content .social-links .social-links-logo {
+    padding: 8px;
+    margin: 10px 15px;
+    background-color: #c4c4c4;
+    border-radius: 10%;
+}
+
+body .container .footer {
+    margin-top: auto;
+}
+
+/* Copyright */
+body .container .footer .copyright {
+    display: flex;
+    justify-content: center;
+}
+
+body .container .footer .copyright a {
+    border: solid 1px gainsboro;
+    border-radius: 10px;
+    padding: 3px 15px;
+}
+
+body .container .footer .copyright a:hover {
+    text-decoration: unset;
+    color: inherit;
+}
+
+body .container .footer .copyright a .logo {
+    margin-left: 5px;
+    height: 24px;
+}
+
+body .container * {
+    font-family: 'Montserrat', sans-serif;
+    background-color: inherit;
+    color: inherit;
+}
+
+body * {
+    font-family: 'Montserrat', sans-serif;
+    ;
+    background-color: inherit;
+    color: inherit;
+}
